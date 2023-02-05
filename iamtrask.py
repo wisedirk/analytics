@@ -42,7 +42,7 @@ syn0 = 2*np.random.random((3,1)) - 1
 # syn0 = syn0 - derr_dsyn0 = syn0 - - l1_error * act(l1,True) * l0 = syn0 + l1_error * act(l1,True) * l0     
 # X[4,1] l0[4,3] syn0[3,1] l1[4,1] y[4,1] l1_error[4,1] l1_delta[4,1] l0.T*l1_delta[3,1]
 
-for iter in range(10000):
+for i in range(10000):
 
     # forward propagation
     l0 = X
