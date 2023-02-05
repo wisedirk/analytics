@@ -33,8 +33,8 @@ np.random.seed(1)
 syn0 = 2*np.random.random((3,1)) - 1
 
 # err = (y - act(sum(syn0 * l0)))^2
-# derr_dsyn0[0] = derr_dsigmoid * dact_dsum * dsum_dsyn0[0]
-# err = (y - l1)^2 => derr_dsigmoid = 2 * (y - l1) * -1 = -2 * l1_error ~ - l1_error
+# derr_dsyn0[0] = derr_dact * dact_dsum * dsum_dsyn0[0]
+# err = (y - l1)^2 => derr_dact = 2 * (y - l1) * -1 = -2 * l1_error ~ - l1_error
 # act = 1/(1-e^-x) => dact_dsum = l1/(1-l1) = act(l1, True)
 # sum = syn0[0]*l0[0] + syn0[1]*l0[1] + syn0[2]*l0[2] => dsum_dsyn0[0] = l0[0]
 # derr_dsyn0 = - l1_error * act(l1,True) * l0
