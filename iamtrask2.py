@@ -34,7 +34,6 @@ syn1 = 2*np.random.random((4,1)) - 1
 # dact_dsum = act(l1, deriv=True)
 # dsum_dsyn0[0] = l0[0]
 # derr_dsyn0[0] = -2 * l2_error * act(l2, deriv=True) * syn1 * act(l1, deriv=True) * l0[0] 
-# derr_dsyn0[0] = -2 * l2_error * act(l2, deriv=True) * syn1 * act(l1, deriv=True) * l0[0] 
 
 for i in range(60000):
 

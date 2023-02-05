@@ -23,6 +23,7 @@ X = np.array([  [0,0,1],
                 [1,1,1] ])
     
 # output dataset            
+# y = np.array([[0,1,1,0]]).T # can not be predicted without additional layers   
 y = np.array([[0,0,1,1]]).T
 
 # seed random numbers to make calculation
