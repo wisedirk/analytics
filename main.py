@@ -1,3 +1,7 @@
+# https://towardsdatascience.com/deep-learning-with-python-neural-networks-complete-tutorial-6b53c0b06af0
+# https://elitedatascience.com/learn-math-for-data-science
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
